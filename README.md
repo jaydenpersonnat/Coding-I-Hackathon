@@ -2,8 +2,8 @@
 
 ## Background 
 For this Hackathon, you'll be working in groups (we'll decide them in class) to 
-solve several exercises described below. For each exercise, you'll have to provide: 
-    1. Code written in python for the problem in the appropriate file (e.g. your solution for exercise 1 will go in 1.py)
+solve several exercises described below. For each exercise, you'll have to provide: <br>
+    1. Code written in python for the problem in the appropriate file (e.g. your solution for exercise 1 will go in 1.py) <br>
     2. Some kind of documentation to tell the reader what your code is doing (this could either be comments or pseudocode in a google doc)
 
 **Important: The two components above will be weighted equally (make sure to provide comments/pseudocode)! Even if you aren't sure how 

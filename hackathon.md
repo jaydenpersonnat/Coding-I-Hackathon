@@ -25,7 +25,7 @@ each solution you come up with because everyone will have to contribute somethin
 **Last Note: We encourage you to google about things you do not know (googling is a big part of programming!), but in terms 
 of fariness, make sure you're not looking for complete answers to any of these problems. For instance, it's completely fair game 
 to look up modules, syntax, functions/methods, etc., but you shouldn't be looking at someone else's solution to a problem that
-may be similar or the same as the exercises above. 
+may be similar or the same as the exercises below. 
 
 On Friday, you'll submit your Hackathon solutions. You're instructors will grade them (with the help of an autograder), 
 assigning points to each question. Whoever has the most points will be deemed the winner! 
@@ -34,9 +34,9 @@ assigning points to each question. Whoever has the most points will be deemed th
 
 #### Exercise 1 
 In the ```main()``` function in 1.py, create a program that asks the user for the 
-following input: 
-    1. The price of an item
-    2. The tax percentage (as a percent)
+following input: <br>
+    1. The price of an item <br> 
+    2. The tax percentage (as a percent) <br> 
     3. Prints the total cost of the item (including tax) 
 You may leave the ```return``` in ```main()``` unchanged. Print the number as a 
 float (do not add a $ symbol), and be careful of how you should represent money as 
@@ -55,9 +55,9 @@ Tax percentage: 4
 In the ```main()``` function create a program the calculates the monthly salary of 
 an employee where
     ```monthy_salary = minimum_wage + (number of years employed * 20) + (number of children * 30)```. 
-The program should ask the user for: 
-    1. a minimum wage (this can be a float)
-    2. the number of years the worker has been employed (this can be a float)
+The program should ask the user for: <br> 
+    1. a minimum wage (this can be a float) <br> 
+    2. the number of years the worker has been employed (this can be a float) <br> 
     3. the number of children they have 
 
 Again, pay attention to how money should be represented! 
@@ -119,9 +119,9 @@ common([1,1,2,3,5,9,14,17,28,56], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) => [1,2,3,5,9
 #### Exercise 6 
 ```luhn(card_number)``` is a function that takes in a credit-card number (as an integer) and returns 
 true or false based on whether the card_number is valid. How do we determine if a credit card 
-number is valid? Well, there's Luhn's algorithm. Based on Luhn's algorithm, you follow these steps to determine if a card is valid:
-    1. Multiply every other digit by 2, starting with the number's second-to-last digit, and then add those products together. 
-    2. Take the sum you calculated in Step (1) and add it to the sum of the digits that were not multiplied by 2.
+number is valid? Well, there's Luhn's algorithm. Based on Luhn's algorithm, you follow these steps to determine if a card is valid: <br>
+    1. Multiply every other digit by 2, starting with the number's second-to-last digit, and then add those products together. <br> 
+    2. Take the sum you calculated in Step (1) and add it to the sum of the digits that were not multiplied by 2. <br> 
     3. If the total is divisible by 10, then the card number is valid. 
 
 ```
@@ -147,7 +147,7 @@ lettersum("excellent") => 100
 #### Exercise 8 
 ```numcompare(numeral_one, numeral_two)``` takes in two strings representing a Roman numeral. 
 A Roman numeral is a non-empty string of the characters M, D, C, L, X, V, and I, each of which 
-has the value 1000, 500, 100, 50, 10, 5 and, 1. The characters are arranged in descending order 
+has the value 1000, 500, 100, 50, 10, 5 and 1. The characters are arranged in descending order 
 and the total value of the numeral is the sum of the values of its characters. There are a few 
 exceptions, however. Numerals such as IV, IX, XIX, XC will stand for 5, 9, 19, and 90 respectively. 
 Look at this Roman numeral chart: <https://www.cuemath.com/numbers/roman-numerals-1-to-100/>. 
@@ -260,7 +260,7 @@ shiftRight('World', 2) => "ldWor"
 ``` 
 
 #### Exercise 15 
-Calculate the [additive persistence] (https://mathworld.wolfram.com/AdditivePersistence.html) of a number, defined as 
+Calculate the [additive persistence](https://mathworld.wolfram.com/AdditivePersistence.html) of a number, defined as 
 how many loops you have to do summing its digits until you get a single digit number. Take an integer N:
     1. Add its digits 
     2. Repeat until the result has one digit 
